@@ -1,4 +1,15 @@
-# macOS on Thinkpad X1 Carbon 7th Generation
+# macOS on ThinkPad X1 Carbon Gen 7 / X1 Yoga Gen 4
+
+## This fork is temporary
+
+This is temporary while I put together a patch set. It exists to:
+
+* bump to OpenCore 0.7.6
+* suss out bugs in the X1Y4
+* allow support for Monterey
+
+## Original README follows:
+
 OpenCore-based Hackintosh EFI and guide for Lenovo Thinkpad X1 Carbon Gen 7. This guide has been generated for both the model numbers specified below.
 
 <p float="center">
