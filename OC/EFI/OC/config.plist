@@ -62,6 +62,14 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-TB3.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TB3.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -92,6 +100,10 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -228,6 +240,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelMausi</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOElectrify.kext</string>
+				<key>Comment</key>
+				<string>IOElectrify.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOElectrify</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
@@ -721,6 +751,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1005,6 +1053,8 @@
 			<string>FVFYWSYAL40Y</string>
 			<key>SystemUUID</key>
 			<string>382639A2-334E-4DB4-90C2-C4F579EA26B0</string>
+			<key>AdviseFeatures</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>UEFI</key>
@@ -1040,6 +1090,12 @@
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
 			<integer>1</integer>
+			<key>PointerPollMask</key>
+			<integer>-1</integer>
+			<key>PointerPollMax</key>
+			<integer>80</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
 		</dict>
 		<key>Audio</key>
 		<dict>
@@ -1061,6 +1117,16 @@
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
+			<key>AudioOutMask</key>
+			<integer>1</integer>
+			<key>DisconnectHda</key>
+			<false/>
+			<key>MaximumGain</key>
+			<integer>-15</integer>
+			<key>MinimumAssistGain</key>
+			<integer>-30</integer>
+			<key>MinimumAudibleGain</key>
+			<integer>-55</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>

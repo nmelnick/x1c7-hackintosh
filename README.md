@@ -4,7 +4,7 @@
 
 This is temporary while I put together a patch set. It exists to:
 
-* bump to OpenCore 0.7.6
+* bump to OpenCore 0.7.8
 * suss out bugs in the X1Y4
 * allow support for Monterey
 
