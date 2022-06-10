@@ -967,6 +967,8 @@
 			<false/>
 			<key>Target</key>
 			<integer>67</integer>
+			<key>LogModules</key>
+			<string>*</string>
 		</dict>
 		<key>Entries</key>
 		<array/>
