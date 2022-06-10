@@ -903,6 +903,10 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1007,6 +1011,13 @@
 		</dict>
 		<key>Tools</key>
 		<array/>
+		<key>Serial</key>
+		<dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
