@@ -2,15 +2,15 @@
 
 ## This fork is temporary
 
-This is temporary while I put together a patch set. It exists to:
+This is temporary while I put together a patch set to the parent repository. It exists to:
 
-* bump to OpenCore 0.7.8
+* bump to OpenCore 0.8.1
 * suss out bugs in the X1Y4
 * allow support for Monterey
 
 ## Original README follows:
 
-OpenCore-based Hackintosh EFI and guide for Lenovo Thinkpad X1 Carbon Gen 7. This guide has been generated for both the model numbers specified below.
+OpenCore-based Hackintosh EFI and guide for Lenovo Thinkpad X1 Carbon Gen 7 and X1 Yoga Gen 4. This guide has been generated for both the model numbers specified below.
 
 <p float="center">
   <img src="./docs/macOS-overview.png" width="500" />
