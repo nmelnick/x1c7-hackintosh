@@ -4,7 +4,7 @@
 
 This is temporary while I put together a patch set to the parent repository. It exists to:
 
-* bump to OpenCore 0.8.1
+* bump to OpenCore 0.8.2
 * suss out bugs in the X1Y4
 * allow support for Monterey
 
